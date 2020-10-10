@@ -1,0 +1,30 @@
+{
+  "name": "etude-pixijs",
+  "version": "1.0.0",
+  "description": "etude project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makruk/etude-pixijs.git"
+  },
+  "author": "makruk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makruk/etude-pixijs/issues"
+  },
+  "homepage": "https://github.com/makruk/etude-pixijs#readme",
+  "devDependencies": {
+    "@types/pixi.js": "^5.0.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "pixi.js": "^5.3.3"
+  }
+}
