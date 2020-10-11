@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
     mode: "development",
     entry: "./src/index.ts",
@@ -14,6 +16,9 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: [".ts"]
+        extensions: [".ts", ".js"]
+    },
+    devServer: {
+        contentBase: path.join(__dirname, 'www')
     }
 };
